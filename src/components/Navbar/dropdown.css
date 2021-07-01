@@ -1,0 +1,36 @@
+.dropdown-menu{
+    width:200px;
+    position:absolute;
+    top:60px;
+    list-style: none;
+    text-align:start;
+}
+
+.dropdown-menu li{
+background: #1888ff;
+
+    color:white;
+    cursor:pointer;
+}
+
+.dropdown-menu li:hover{
+background-color: #5cabff;
+}
+
+.dropdown-menu.clicked{
+    display: none;
+}
+
+.dropdown-item{
+    width:100%;
+    display: block;
+    height:100%;
+    text-decoration: none;
+    font-size:16px;
+    color:#fff;
+}
+@media screen and (max-width:920px) {
+    .dropdown-item{
+        /* fon-size:12px; */
+    }
+}
