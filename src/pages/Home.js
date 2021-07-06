@@ -32,9 +32,9 @@ export default function Repair() {
         <div className="card-footer">
           <div className="button-container">
             <button className="dark-bg">Signup to drive</button>
-            <p>
+            <span id="f-para">
               <a href="/">Learn more about driving and delivery</a>
-            </p>
+            </span>
           </div>
         </div>
       </div>

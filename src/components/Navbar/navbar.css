@@ -1,7 +1,7 @@
 
 :root{
     --mainColor: #000;
-    --primaryColor:rgb(19, 19, 180);
+    --primaryColor: rgb(245, 245, 220);
     --whiteColor:#fff;
     --fontStyle:Verdana, Geneva, Tahoma, sans-serif;
     --mainWidth:100%;
@@ -53,8 +53,9 @@
 }
 
 .nav-links:hover {
-  background-color: #1888ff;
+  background-color: rgb(245, 245, 220);
   border-radius: 4px;
+  color:#000;
   transition: all 0.2s ease-out;
 }
 
@@ -103,8 +104,9 @@
   }
 
   .nav-links:hover {
-    background-color: #1888ff;
+    background-color: rgb(245, 245, 220);
     border-radius: 0;
+    color:#000;
   }
 
   .navbar-logo {
@@ -133,15 +135,15 @@
     margin: 2rem auto;
     border-radius: 4px;
     width: 80%;
-    background: #1888ff;
+    background:var(--primaryColor);
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
   }
 
   .nav-links-mobile:hover {
-    background: #fff;
-    color: #1888ff;
+    background:rgb(245, 245, 220);
+    color:#000;
     transition: 250ms;
   }
 
@@ -169,7 +171,8 @@
     color:#fff;
 }
 .nav-link:hover{
-    background:#1888ff;
+    background:rgb(245, 245, 220);
+    color:#000;
     padding:10px;
     border-radius:5px;
 }
