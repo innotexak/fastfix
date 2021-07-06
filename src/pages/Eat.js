@@ -5,36 +5,34 @@ import { AiFillCar } from 'react-icons/ai';
 import { ImSpoonKnife } from 'react-icons/im';
 import '../index.css';
 
-export default function Repair() {
+export default function Eat() {
   return (
-    <div className="deliver">
+    <div className="eat">
       <div className="card">
         <div className="card-header">
-          <Link to="/" className="icons active">
+          <Link to="/" className="icons">
             <GiNetworkBars />
-            <p>Drive or</p>
-            <p>deliver</p>
+            <p>Drive or </p>
+            <p>deliver </p>
           </Link>
-          <Link to="/eat" className="icons">
+          <Link to="/eat" className="icons active">
             <ImSpoonKnife />
             <p>Eat</p>
           </Link>
 
-          <Link to="/drive" className="icons ">
+          <Link to="/drive" className="icons">
             <AiFillCar />
             <p>Ride</p>
           </Link>
         </div>
         <div className="card-body">
-          <h1>Get in the driver’s seat and get paid</h1>
-          <p>Drive on the platform with the largest network of active riders.</p>
+          <h1>Discover delicious eats</h1>
+          <p>Order delivery from restaurants you love.</p>
         </div>
         <div className="card-footer">
           <div className="button-container">
-            <button className="dark-bg">Signup to drive</button>
-            <p>
-              <a href="/">Learn more about driving and delivery</a>
-            </p>
+            <button className="dark-bg">Order now</button>
+            <p>Own a restaurant? Partner with Uber Eats</p>
           </div>
         </div>
       </div>
